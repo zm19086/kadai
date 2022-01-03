@@ -1,5 +1,11 @@
 var score = 0
 
-function add(){score ++ ;}
+function add(){
+    score ++ ;
+}
 
-function sign(){alert(score+'問正解');}
+function test(){
+    alert(score+'点');
+}
+
+function happyou(){document.getElementById('result1').innerHTML= score + '問正解!!';}
