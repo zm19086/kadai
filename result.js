@@ -1,0 +1,1 @@
+function happyou(){document.getElementById('result1').innerHTML= score + '問正解!!';}

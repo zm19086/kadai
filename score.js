@@ -1,3 +1,5 @@
-let score = 0
+var score = 0
 
-function add(){score + 1;}
+function add(){score ++ ;}
+
+function sign(){alert(score+'問正解');}
