@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body{background-color:wheat;}
+
+.time{
+    color: red;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: right;
+}
