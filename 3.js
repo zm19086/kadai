@@ -10,4 +10,7 @@ else if(document.getElementById('answer3').value=='YUME'){
 else{alert('はずれ!');}
 }
 
-function T(){add();}
+function T(){
+    add();
+    window.location.href="./4.html";
+}
