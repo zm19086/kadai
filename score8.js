@@ -1,1 +1,1 @@
-function happyou8(){document.getElementById('result1').innerHTML='8問正解!!';}
+function happyou8(){document.getElementById('result8').innerHTML='8問正解!!';}

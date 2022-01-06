@@ -1,1 +1,1 @@
-function happyou10(){document.getElementById('result1').innerHTML='全問正解!!';}
+function happyou10(){document.getElementById('result10').innerHTML='全問正解!!';}
