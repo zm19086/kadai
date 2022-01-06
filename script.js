@@ -4,12 +4,9 @@ function wrightTime(){
 }
 wrightTime();
 
-let keika = 0;
-function minus(){keika ++;}
 
 const timerId = setInterval(function(){
     elapsedTime--;
-    minus();
     wrightTime();
     if (elapsedTime === 0){
         clearInterval(timerId);
