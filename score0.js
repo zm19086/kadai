@@ -1,0 +1,1 @@
+function happyou0(){document.getElementById('result1').innerHTML='0問正解!!';}

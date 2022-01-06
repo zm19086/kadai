@@ -140,51 +140,50 @@ else{alert('はずれ!');}
 
 function T1(){
     add();
-    document.getElementById('null1').src='./image/seikai.png';
     document.getElementById('question1').innerHTML='Q1.答え:夢';
 }
 
 function T2(){
     add();
-    document.getElementById('question2').src='./image/seikai.png';
+    document.getElementById('question2').innerHTML='Q2.答え:夢';
 }
 
 function T3(){
     add();
-    document.getElementById('question3').src='./image/seikai.png';
+    document.getElementById('question3').innerHTML='Q3.答え:夢';
 }
 
 function T4(){
     add();
-    document.getElementById('question4').src='./image/seikai.png';
+    document.getElementById('question4').innerHTML='Q4.答え:夢';
 }
 
 function T5(){
     add();
-    document.getElementById('question5').src='./image/seikai.png';
+    document.getElementById('question5').innerHTML='Q5.答え:夢';
 }
 
 function T6(){
     add();
-    document.getElementById('question6').src='./image/seikai.png';
+    document.getElementById('question6').innerHTML='Q6.答え:夢';
 }
 
 function T7(){
     add();
-    document.getElementById('question7').src='./image/seikai.png';
+    document.getElementById('question7').innerHTML='Q7.答え:夢';
 }
 
 function T8(){
     add();
-    document.getElementById('question8').src='./image/seikai.png';
+    document.getElementById('question8').innerHTML='Q8.答え:夢';
 }
 
 function T9(){
     add();
-    document.getElementById('question9').src='./image/seikai.png';
+    document.getElementById('question9').innerHTML='Q9.答え:夢';
 }
 
 function T10(){
     add();
-    document.getElementById('question10').src='./image/seikai.png';
+    document.getElementById('question10').innerHTML='Q10.答え:夢';
 }

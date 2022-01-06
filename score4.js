@@ -1,0 +1,1 @@
+function happyou4(){document.getElementById('result1').innerHTML='4問正解!!';}

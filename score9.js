@@ -1,0 +1,1 @@
+function happyou9(){document.getElementById('result1').innerHTML='9問正解!!';}
