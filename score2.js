@@ -1,1 +1,0 @@
-function happyou２(){document.getElementById('result2').innerHTML='2問正解!!';}

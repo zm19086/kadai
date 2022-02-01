@@ -1,1 +1,0 @@
-function happyou6(){document.getElementById('result6').innerHTML='6問正解!!';}

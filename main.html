@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>謎解きゲーム</title>
+  <link rel="stylesheet" href="css/Q.css">
+  <link rel="stylesheet" href="css/btn.css">
+  <link rel="stylesheet" href="css/box.css">
+  <link rel="stylesheet" href="css/text.css">
+  <script src="js/script.js" defer></script>
+  <script src="js/correction.js"></script>
+</head>
+<body>
+  <div id="timer">
+    <div id="time" class="time"></div>
+  </div>
+  <main>
+    <div class="content">
+      <div id="end">
+        <div class="box">
+          <div id="question1">
+            <p class="num">第1問</p>
+            <p class="code">G→K→S→[？]→K→D→N→G→K→S→...</p>
+            <p class="toi">[？]に入るアルファベットは？</p>
+            <div id="hint1">
+              <div class="sbtn">
+                <a onclick="HINT1();" class="btn1 btn--orange">ヒント</a>
+              </div>
+            </div>
+            <p>
+              答:<input type="text" id="answer1">
+              <a onclick="nazo1();" class="btn1 btn--orange1">解答</a>
+            </p>
+          </div>
+        </div>
+        <div class="endbtn">
+          <a onclick="next10();" class="btn btn--orange2">終了</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
