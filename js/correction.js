@@ -1,3 +1,6 @@
+//　　正誤判定
+// 正解なら関数Tを実行し、誤答ならアラートを出す。
+
 function nazo1(){
   if(document.getElementById('answer1').value=='M'){
     T1();}
@@ -112,6 +115,8 @@ else if(document.getElementById('answer10').value=='y'){
 else{alert('はずれ!');}
 }
 
+// ヒントが押されたらgetElementByIdでヒントに書き換える。
+
 function HINT1(){
   document.getElementById('hint1').innerHTML='<div><span class="iro1">ヒント:</span><span class="hint"> 一週間</span></div>';
 }
@@ -151,6 +156,8 @@ function HINT9(){
 function HINT10(){
   document.getElementById('hint10').innerHTML='<div><span class="iro1">ヒント:</span><span class="hint"> たくさん欲しいよね...。</span></div>'
 }
+
+// 正解したら関数addを実行し、getElementByIdで正解の解説と次に進むボタンを表示する。
 
 function T1() {
   add();
@@ -241,6 +248,8 @@ function T10(){
   '<a onclick="next10();" class="btn1 btn--orange1">次に進む</a>'+
   '</div>';
 }
+
+// 次に進むボタンが押されたらgetElementByIdで次の問題に書き換える。
 
 function next1() {
   document.getElementById('result1').innerHTML = '<div id="question2">'+
@@ -415,13 +424,17 @@ function next10(){
 }
 
 // 持ち点の設定
+
 var score = 0
 
 // 正解すると持ち点に＋１する
+
 function add(){
     score ++ ;
     console.log(score);
 }
+
+// 結果を見るボタンが押されたらgetElementByIdで変数を含めて結果を表示する。
 
 function kekka(){
   document.getElementById('result').innerHTML ='<p class="title2"><span class="iro1">' + score + '</span>問正解です!!</p>';
