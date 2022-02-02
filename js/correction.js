@@ -418,7 +418,6 @@ function next10(){
   '<p class="true">あなたの結果は...</p>'+
   '<a onclick="kekka();" class="btn btn--orange1">結果を見る</a>'+
   '</div>'+
-  '<a href="index.html" class="btn btn--orange2">最初のページに戻る</a>'+
   '</div>'+
   '</div>';
 }
@@ -437,5 +436,6 @@ function add(){
 // 結果を見るボタンが押されたらgetElementByIdで変数を含めて結果を表示する。
 
 function kekka(){
-  document.getElementById('result').innerHTML ='<p class="title2"><span class="iro1">' + score + '</span>問正解です!!</p>';
+  document.getElementById('result').innerHTML ='<p class="title2"><span class="iro1">' + score + '</span>問正解です!!</p>'+
+  '<a href="index.html" class="btn btn--orange2">最初のページに戻る</a>';
 }
