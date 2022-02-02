@@ -161,8 +161,7 @@ function HINT10(){
 
 function T1() {
   add();
-  document.getElementById('question1').innerHTML = '<div id="result1">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> M [MOKU(木曜日)]</div>'+
   '<a onclick="next1();" class="btn1 btn--orange1">次に進む</a>'+
   '<div>';
@@ -170,8 +169,7 @@ function T1() {
 
 function T2(){
   add();
-  document.getElementById('question2').innerHTML = '<div id="result2">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> S [six(6)]</div>'+
   '<a onclick="next2();" class="btn1 btn--orange1">次に進む</a>'+
   '<div>';
@@ -179,8 +177,7 @@ function T2(){
 
 function T3(){
   add();
-  document.getElementById('question3').innerHTML = '<div id="result3">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> E [Seven-Eleven]</div>'+
   '<a onclick="next3();" class="btn1 btn--orange1">次に進む</a>'+
   '<div>';
@@ -188,8 +185,7 @@ function T3(){
 
 function T4(){
   add();
-  document.getElementById('question4').innerHTML = '<div id="result4">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> D [Day(日)]</div>'+
   '<a onclick="next4();" class="btn1 btn--orange1">次に進む</a>'+
   '<div>';
@@ -197,8 +193,7 @@ function T4(){
 
 function T5(){
   add();
-  document.getElementById('question5').innerHTML = '<div id="result5">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> S [SHOUWA(昭和)]</div>'+
   '<a onclick="next5();" class="btn1 btn--orange1">次に進む</a>'+
   '</div>';
@@ -206,8 +201,7 @@ function T5(){
 
 function T6(){
   add();
-  document.getElementById('question6').innerHTML = '<div id="result6">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> K [KYOU(今日)]</div>'+
   '<a onclick="next6();" class="btn1 btn--orange1">次に進む</a>'+
   '</div>';
@@ -215,8 +209,7 @@ function T6(){
 
 function T7(){
   add();
-  document.getElementById('question7').innerHTML = '<div id="result7">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> J [January(１月),June(６月),July(７月)]</div>'+
   '<a onclick="next7();" class="btn1 btn--orange1">次に進む</a>'+
   '</div>';
@@ -224,8 +217,7 @@ function T7(){
 
 function T8(){
   add();
-  document.getElementById('question8').innerHTML = '<div id="result8">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> 43 [43県]</div>'+
   '<a onclick="next8();" class="btn1 btn--orange1">次に進む</a>'+
   '</div>';
@@ -233,8 +225,7 @@ function T8(){
 
 function T9(){
   add();
-  document.getElementById('question9').innerHTML = '<div id="result9">'+
-  '<p class="true">正解!!</p>'+
+  document.getElementById('question1').innerHTML = '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> K [Km(キロメートル)]</div>'+
   '<a onclick="next9();" class="btn1 btn--orange1">次に進む</a>'+
   '</div>';
@@ -242,7 +233,7 @@ function T9(){
 
 function T10(){
   add();
-  document.getElementById('question10').innerHTML = '<div id="end">'+
+  document.getElementById('question1').innerHTML = '<div id="end">'+
   '<p class="true">正解!!</p>'+
   '<div class="answer"><span class="iro1">答え:</span> Y [YEN(円)]</div>'+
   '<a onclick="next10();" class="btn1 btn--orange1">次に進む</a>'+
@@ -252,8 +243,7 @@ function T10(){
 // 次に進むボタンが押されたらgetElementByIdで次の問題に書き換える。
 
 function next1() {
-  document.getElementById('result1').innerHTML = '<div id="question2">'+
-  '<p class="num">第2問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第2問</p>'+
   '<p class="code">O→T→T→F→F→[？]→S→E→N→T</p>'+
   '<p class="toi">[？]に入るアルファベットは？</p>'+
   '<div id="hint2">'+
@@ -269,8 +259,7 @@ function next1() {
 }
 
 function next2() {
-  document.getElementById('result2').innerHTML = '<div id="question3">'+
-  '<p class="num">第3問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第3問</p>'+
   '<p class="code">S [？] V [？] N [？] L [？] V [？] N</p>'+
   '<p class="toi">[？]に共通するアルファベットは？</p>'+
   '<div id="hint3">'+
@@ -286,8 +275,7 @@ function next2() {
 }
 
 function next3(){
-  document.getElementById('result3').innerHTML = '<div id="question4">'+
-  '<p class="num">第４問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第４問</p>'+
   '<p class="code">S＜M＜H＜[？]＜W＜M＜Y＜C</p>'+
   '<p class="toi">[？]に入るアルファベットは？</p>'+
   '<div id="hint4">'+
@@ -303,8 +291,7 @@ function next3(){
 }
 
 function next4(){
-  document.getElementById('result4').innerHTML = '<div id="question5">'+
-  '<p class="num">第5問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第5問</p>'+
   '<p class="code">M→T→[？]→H→R</p>'+
   '<p class="toi">[？]に入るアルファベットは？</p>'+
   '<div id="hint5">'+
@@ -320,8 +307,7 @@ function next4(){
 }
 
 function next5(){
-  document.getElementById('result5').innerHTML = '<div id="question6">'+
-  '<p class="num">第6問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第6問</p>'+
   '<p class="code">O→K→[？]→A→A→S</p>'+
   '<p class="toi">[？]に入るアルファベットは？</p>'+
   '<div id="hint6">'+
@@ -337,8 +323,7 @@ function next5(){
 }
 
 function next6(){
-  document.getElementById('result6').innerHTML = '<div id="question7">'+
-  '<p class="num">第7問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第7問</p>'+
   '<p class="code">[？]→F→M→A→M→[？]→[？]→A→S→O→N→D</p>'+
   '<p class="toi">[？]に共通するアルファベットは？</p>'+
   '<div id="hint7">'+
@@ -354,8 +339,7 @@ function next6(){
 }
 
 function next7(){
-  document.getElementById('result7').innerHTML = '<div id="question8">'+
-  '<p class="num">第8問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第8問</p>'+
   '<p class="code">1T+1D+2F+[？]K</p>'+
   '<p class="toi">[？]に入る数字は？</p>'+
   '<div id="hint8">'+
@@ -371,8 +355,7 @@ function next7(){
 }
 
 function next8(){
-  document.getElementById('result8').innerHTML = '<div id="question9">'+
-  '<p class="num">第9問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第9問</p>'+
   '<p class="code">M M C M M [？] M</p>'+
   '<p class="toi">[？]に入るアルファベットは？</p>'+
   '<div id="hint9">'+
@@ -388,8 +371,7 @@ function next8(){
 }
 
 function next9(){
-  document.getElementById('result9').innerHTML = '<div id="question10">'+
-  '<p class="num">第10問</p>'+
+  document.getElementById('question1').innerHTML = '<p class="num">第10問</p>'+
   '<p class="code1">J=[？]</p>'+
   '<p class="code2">A=D</p>'+
   '<p class="code2">C=G</p>'+
