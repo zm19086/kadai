@@ -99,4 +99,8 @@ main {
     font-size: 4.2vw;
   }
 
+  input {
+    height: 30px;
+  }
+
 }
