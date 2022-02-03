@@ -1,10 +1,18 @@
 body {
-  height: 90vh;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
 }
 
 .box {
   display: inline-block;
-  margin-top: 120px;
+  margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
   padding-top: 0px;
@@ -14,7 +22,7 @@ body {
   border: solid 2px #e5af00;
   border-radius: 3px 0 3px 0;
 }
-  
+
 .box:before, .box:after {
   content:'';
   position: absolute;
@@ -23,27 +31,27 @@ body {
   border: solid 2px #e5af00;
   border-radius: 50%;
 }
-  
+
 .box:after {
   top: -9px;
   left: -9px;
 }
-  
+
 .box:before {
   bottom: -9px;
   right: -9px;
 }
-  
+
 .box1 {
   display: inline-block;
   margin-top: 60px;
   margin-bottom: 15px;
   position: relative;
-  padding: 0.25em 1em;
+  padding: 0.25em 1em 1.5em 1em;
   border: solid 2px #e5af00;
   border-radius: 3px 0 3px 0;
 }
-  
+
 .box1:before, .box1:after {
   content:'';
   position: absolute;
@@ -52,17 +60,17 @@ body {
   border: solid 2px #e5af00;
   border-radius: 50%;
 }
-  
+
 .box1:after {
   top: -9px;
   left: -9px;
 }
-  
+
 .box1:before {
   bottom: -9px;
   right: -9px;
 }
-  
+
 .last {
   position: relative;
   margin-top: 50px;

@@ -6,12 +6,14 @@ main {
   color: #fff;
   font-size: 2.2vw;
   text-align: center;
+  height: 100vh;
 }
 
 .num{
-  font-size: 30px;
+  font-size: 3.3vw;
   color: #e5af00;
   text-align: center;
+  line-height: 2;
   border-bottom: double 6px #e5af00;
 }
 
@@ -24,25 +26,77 @@ main {
   padding-bottom: 10px;
 }
 
-.code{
+.code {
+  font-size: 2.8vw;
   padding-top: 33px;
   padding-bottom: 10px;
 }
 
-.code1{
+.code1 {
   padding-top: 10px;
+  line-height: 1.5;
 }
 
 .code2{
   padding-top: 2px;
   padding-bottom: 2px;
+  line-height: 1.5;
 }
 
-.toi{
+.toi {
+  font-size: 3vw;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .hint {
+  font-size: 3vw;
   color: #e5af00;
+}
+
+@media screen and (max-width: 768px) {
+
+  .num {
+    font-size: 7.5vw;
+  }
+
+  .code {
+    font-size: 3.8vw;
+    padding-top: 33px;
+    padding-bottom: 10px;
+  }
+  
+  .code1 {
+    font-size: 4vw;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    line-height: 1.5;
+  }
+
+  .code2{
+    font-size: 4vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 1.5;
+  }
+  
+  .toi {
+    font-size: 3vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .hint {
+    font-size: 5vw;
+    color: #e5af00;
+  }
+
+  .hints {
+    font-size: 5vw;
+  }
+
+  .answer {
+    font-size: 4.2vw;
+  }
+
 }
