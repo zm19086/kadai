@@ -11,7 +11,12 @@
   <link rel="stylesheet" href="css/box.css">
   <link rel="stylesheet" href="css/text.css">
   <script src="js/script.js" defer></script>
-  <script src="js/correction.js"></script>
+  <script src="js/judgement.js"></script>
+  <script src="js/hints.js"></script>
+  <script src="js/Qs.js"></script>
+  <script src="js/As.js"></script>
+  <script src="js/scores.js"></script>
+  <script src="js/select.js"></script>
 </head>
 <body>
   <div id="timer">
@@ -19,21 +24,28 @@
   </div>
   <main>
     <div class="content">
+      <div id="select">
+        <div class="sbtn">
+          <div class="btn3"><a onclick="q1();" class="btn2 selectbtn1">1</a></div><div class="btn3"><a onclick="q2();" class="btn2 selectbtn2">2</a></div><div class="btn3"><a onclick="q3();" class="btn2 selectbtn3">3</a></div><div class="btn3"><a onclick="q4();" class="btn2 selectbtn4">4</a></div><div class="btn3"><a onclick="q5();" class="btn2 selectbtn5">5</a></div><div class="btn3"><a onclick="q6();" class="btn2 selectbtn6">6</a></div><div class="btn3"><a onclick="q7();" class="btn2 selectbtn7">7</a></div><div class="btn3"><a onclick="q8();" class="btn2 selectbtn8">8</a></div><div class="btn3"><a onclick="q9();" class="btn2 selectbtn9">9</a></div><div class="btn3"><a onclick="q10();" class="btn2 selectbtn10">10</a></div>
+        </div>
+      </div>
       <div id="lastquestion">
         <div class="box">
-          <div id="question">
-            <p class="num">第1問</p>
-            <p class="code">G→K→S→[？]→K→D→N→G→K→S→...</p>
-            <p class="toi">[？]に入るアルファベットは？</p>
-            <div id="hint1">
-              <div class="sbtn">
-                <a onclick="HINT1();" class="btn1 btn--orange">ヒント</a>
+          <div id="Qs">
+            <div id="question1">
+              <p class="num">第1問</p>
+              <p class="code">G→K→S→[？]→K→D→N→G→K→S→...</p>
+              <p class="toi">[？]に入るアルファベットは？</p>
+              <div id="hint1">
+                <div class="sbtn">
+                  <a onclick="HINT1();" class="btn1 btn--orange">ヒント</a>
+                </div>
               </div>
+              <p class="ans">
+                答:<input type="text" id="answer1">
+                <a onclick="nazo1();" class="btn1 btn--orange1">解答</a>
+              </p>
             </div>
-            <p class="ans">
-              答:<input type="text" id="answer1">
-              <a onclick="nazo1();" class="btn1 btn--orange1">解答</a>
-            </p>
           </div>
         </div>
       </div>

@@ -54,6 +54,10 @@ main {
   color: #e5af00;
 }
 
+#select {
+  position: static;
+}
+
 @media screen and (max-width: 768px) {
 
   .num {

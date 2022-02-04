@@ -62,6 +62,33 @@ button.btn1 {
     border-radius: 0.5rem;
 }
 
+.btn2,
+a.btn2,
+button.btn2 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 1.45;
+    position: relative;
+    display: inline-block;
+    padding: 0.6vw 1vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #000;
+    border-radius: 50%;
+    margin: 0.5vw;
+    z-index: 1;
+}
+
 .btn--orange,
 a.btn--orange {
     color: #fff;
@@ -111,6 +138,17 @@ a.btn--orange2:hover {
 
 .rtnbtn {
     margin-top: 50px;
+}
+
+.selectbtn1, .selectbtn2, .selectbtn3, .selectbtn4, .selectbtn5, .selectbtn6, .selectbtn7, .selectbtn8, .selectbtn9, .selectbtn10 {
+    background-color: #e5af00;
+    color: #000;
+    z-index: 2;
+}
+
+.selectbtn10 {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -164,6 +202,12 @@ a.btn--orange2:hover {
         letter-spacing: 0.1em;
         color: #ffffff;
         border-radius: 0.5rem;
+    }
+
+    .btn2,
+    a.btn2,
+    button.btn2 {
+        line-height: 1.1;
     }
     
     .ans {
