@@ -208,6 +208,7 @@ a.btn--orange2:hover {
     a.btn2,
     button.btn2 {
         line-height: 1.1;
+        margin: 2.4vw;
     }
     
     .ans {
