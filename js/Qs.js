@@ -272,6 +272,4 @@ function next11(){
   '<a onclick="kekka();" class="btn btn--orange1">結果を見る</a>'+
   '</div>'+
   '</div>';
-  document.getElementById('select').innerHTML = '';
-  document.getElementById('end').innerHTML = '';
 }
