@@ -46,7 +46,7 @@ button.btn1 {
     position: relative;
     display: inline-block;
     padding: 0.2rem 0.7rem;
-    margin-left: 5px;
+    margin: 0 1.5vw;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -71,7 +71,7 @@ button.btn2 {
     line-height: 1.45;
     position: relative;
     display: inline-block;
-    padding: 0.6vw 1.3vw;
+    padding: 0.6vw 1.1vw;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -84,9 +84,66 @@ button.btn2 {
     text-decoration: none;
     letter-spacing: 0.1em;
     color: purple;
+    background-color: #e5af00;
     border-radius: 50%;
     margin: 0.5vw;
     z-index: 1;
+}
+
+.btn4,
+a.btn4,
+button.btn4 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 1.45;
+    position: relative;
+    display: inline-block;
+    padding: 0.6vw 1.1vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    background-color: #35e500;
+    border-radius: 50%;
+    margin: 0.5vw;
+    z-index: 1;
+}
+
+.btn5,
+a.btn5,
+button.btn5 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 1.45;
+    position: relative;
+    display: inline-block;
+    padding: 0.6vw 1.3vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: rgb(0, 0, 0);
+    background-color: #ff0000;
+    border-radius: 50%;
+    margin: 0.5vw;
+    z-index: 3;
 }
 
 .btn--orange,
@@ -141,7 +198,7 @@ a.btn--orange2:hover {
 }
 
 .selectbtn1, .selectbtn2, .selectbtn3, .selectbtn4, .selectbtn5, .selectbtn6, .selectbtn7, .selectbtn8, .selectbtn9, .selectbtn10 {
-    background-color: #ffc400;
+    background-color: #00e51f;
     color: purple;
     z-index: 2;
 }
@@ -208,8 +265,9 @@ a.btn--orange2:hover {
     a.btn2,
     button.btn2 {
         line-height: 1.1;
-        margin: 1.4vw;
+        margin: 0.8vw;
         font-size: 5.1vw;
+        padding: 0.6vw 1.3vw;
     }
     
     .ans {

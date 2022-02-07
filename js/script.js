@@ -17,6 +17,6 @@ const timerId = setInterval(function(){
     if (elapsedTime === 0){
         clearInterval(timerId);
         alert('時間切れ!');
-        next10();
+        next11();
     }
 },1000);

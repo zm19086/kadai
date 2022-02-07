@@ -33,7 +33,6 @@
   font-size: 2.8vw;
   line-height: 2.2;
   text-align: center;
-  /* margin: 4vh 0; */
 }
 
 .time {
@@ -71,6 +70,12 @@
   line-height: 2;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.alert {
+  font-size: 3vw;
+  color: #e5af00;
+  margin: 5vw 0.5vw;
 }
 
 @media screen and (max-width: 768px) {

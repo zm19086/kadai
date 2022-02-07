@@ -21,6 +21,16 @@ function q1() {
     '<a onclick="next1();" class="btn1 btn--orange1">次に進む</a>'+
     '<div>';
   }
+  document.getElementById('choice1').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q2() {
@@ -46,6 +56,16 @@ function q2() {
     '<a onclick="next2();" class="btn1 btn--orange1">次に進む</a>'+
     '<div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q3() {
@@ -71,6 +91,16 @@ function q3() {
     '<a onclick="next3();" class="btn1 btn--orange1">次に進む</a>'+
     '<div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q4() {
@@ -96,6 +126,16 @@ function q4() {
     '<a onclick="next4();" class="btn1 btn--orange1">次に進む</a>'+
     '<div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q5() {
@@ -121,6 +161,16 @@ function q5() {
     '<a onclick="next5();" class="btn1 btn--orange1">次に進む</a>'+
     '</div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q6() {
@@ -146,6 +196,16 @@ function q6() {
     '<a onclick="next6();" class="btn1 btn--orange1">次に進む</a>'+
     '</div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q7() {
@@ -171,6 +231,16 @@ function q7() {
     '<a onclick="next7();" class="btn1 btn--orange1">次に進む</a>'+
     '</div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q8() {
@@ -196,6 +266,16 @@ function q8() {
     '<a onclick="next8();" class="btn1 btn--orange1">次に進む</a>'+
     '</div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q9() {
@@ -221,10 +301,20 @@ function q9() {
     '<a onclick="next9();" class="btn1 btn--orange1">次に進む</a>'+
     '</div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '<div class="circle"></div>';
+  document.getElementById('choice10').innerHTML = '';
 }
 
 function q10() {
-  if(Q2 == 0) {
+  if(Q10 == 0) {
     document.getElementById('Qs').innerHTML = '<div id="question10">'+
     '<p class="num">第10問</p>'+
     '<p class="code1">J=[？]</p>'+
@@ -251,4 +341,14 @@ function q10() {
     '<a onclick="next10();" class="btn1 btn--orange1">次に進む</a>'+
     '</div>';
   }
+  document.getElementById('choice1').innerHTML = '';
+  document.getElementById('choice2').innerHTML = '';
+  document.getElementById('choice3').innerHTML = '';
+  document.getElementById('choice4').innerHTML = '';
+  document.getElementById('choice5').innerHTML = '';
+  document.getElementById('choice6').innerHTML = '';
+  document.getElementById('choice7').innerHTML = '';
+  document.getElementById('choice8').innerHTML = '';
+  document.getElementById('choice9').innerHTML = '';
+  document.getElementById('choice10').innerHTML = '<div class="circle1"></div>';
 }
