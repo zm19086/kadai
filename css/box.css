@@ -110,6 +110,10 @@ body {
   position: relative;
 }
 
+input {
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 768px){
   #content {
     padding-top: 50%;

@@ -245,7 +245,7 @@ a.btn--orange2:hover {
         position: relative;
         display: inline-block;
         padding: 0.2rem 0.7rem;
-        margin-left: 5px;
+        margin-left: 0px;
         cursor: pointer;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -269,8 +269,21 @@ a.btn--orange2:hover {
         font-size: 5.1vw;
         padding: 0.6vw 1.3vw;
     }
+
+    .btn4,
+    a.btn4,
+    button.btn4 {
+        line-height: 1.1;
+        margin: 0.8vw;
+        font-size: 5.1vw;
+        padding: 0.6vw 1.3vw;
+    }
     
     .ans {
+        font-size: 5vw;
+    }
+
+    .alert {
         font-size: 5vw;
     }
 
